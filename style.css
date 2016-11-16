@@ -1,0 +1,11 @@
+body {
+  background-color: lightblue;
+}
+
+input {
+  position: absolute;
+  font-size: 75px;
+  margin-top: 40%;
+  margin-left: 15%;
+
+}

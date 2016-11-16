@@ -1,0 +1,14 @@
+<h1>Movies you Requested:</h1>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-3"
+
+      <ul>
+        <li ng-repeat="movieInfo in movieResults.results" ng-hide="title">
+        <h2 ng-if="!movieInfo.poster_path">Title: {{movieInfo.title}}</h2>
+        <img src="https://image.tmdb.org/t/p/w300/{{movieInfo.poster_path}}" ng-if="movieInfo.poster_path"/>
+
+       
+    </div>
+  </div>
+</div>
