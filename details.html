@@ -1,0 +1,11 @@
+<div ng-repeat="MovieService.details">
+  <ul>
+  <li>Movie Title: {{MovieService.title}}</li>
+  <li>Movie Poster: {{MovieService.poster}}</li>
+  <li>Movie Overview: {{MovieService.overview}}</li>
+  <img src="https://image.tmdb.org/t/p/w500/{{MovieService.poster_path}}"/>
+  <li>Run Time: {{MovieService.run_time}}</li>
+  <li>Release Date: {{MovieService.release_date}}</li>
+  <li>Genre: {{MovieService.genre}}</li>
+  </ul>
+</div>
